@@ -20,8 +20,7 @@ foreach ($categories as $category) {
         array_push($allMeals , $meal);
     }
 }
-$Ma = array_slice($allMeals , 0, 3);
-print_r(json_encode($Ma));
-// print_r(json_encode($allMeals));
+
+print_r(json_encode($allMeals));
 
 ?>
