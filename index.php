@@ -21,7 +21,7 @@ foreach ($categories as $category) {
     }
 }
 $Ma = array_slice($allMeals , 0, 3);
-print_r($Ma);
+print_r(json_encode($Ma));
 // print_r(json_encode($allMeals));
 
 ?>
